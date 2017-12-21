@@ -1,0 +1,27 @@
+常用视图Tag说明:
+
+View:   UIView
+        UIView provides a structure for drawing and handling events. A UIView object claims a rectangular region of its enclosing superview (its parent in the view hierarchy) and is responsible for all drawing in that region, as well as receiving events that occur in the region.
+    tag值 范围 从0000 ~ 0999 即0~999
+
+Button: UIButton
+        Implements a button that intercepts touch events and sends an action message to a target object when it's tapped. You can set the title, image, and other appearance properties of a button. In addition, you can specify a different appearance for each button state.
+    tag值 范围 从1000 ~ 1999
+
+Label:  UILabel
+        Implements a read-only text view. A label can contain an arbitrary amount of text, but UILabel may shrink, wrap, or truncate the text, depending on the size of the bounding rectangle and properties you set. You can control the font, text color, alignment, highlighting, and shadowing of the text in the label.
+    tag值 范围 从2000 ~ 2999
+
+Image View: UIImageView
+        Displays a single image, or an animation described by an array of images.
+    tag值 范围 从3000 ~ 3999
+
+Text Field: UITextField
+        Displays a rounded rectangle that can contain editable text. When a user taps a text field, a keyboard appears; when a user taps Return in the keyboard, the keyboard disappears and the text field can handle the input in an application-specific way. UITextField supports overlay views to display additional information, such as a bookmarks icon. UITextField also provides a clear text control a user taps to erase the contents of the text field.
+    tag值 范围 从4000 ~ 4999
+
+Text View:  UITextView
+        UITextView displays a region that can contain multiple lines of editable text. When a user taps a text view, a keyboard appears; when a user taps Return in the keyboard, the keyboard disappears and the text view can handle the input in an application-specific way. You can specify attributes, such as font, color, and alignment, that apply to all text in a text view.
+    tag值 范围 从5000 ~ 5999
+
+

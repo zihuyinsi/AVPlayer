@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'AVPlayer' do
+    use_frameworks!
+
+pod 'SnapKit'
+pod 'SDWebImage'
+
+end
